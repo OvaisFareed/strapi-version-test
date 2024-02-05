@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/quotation-form",
+      "handler": "quotation-form.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/quotation-form",
+      "handler": "quotation-form.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/quotation-form",
+      "handler": "quotation-form.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

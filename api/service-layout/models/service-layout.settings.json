@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "service_layouts",
+  "info": {
+    "name": "Service Layout"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "all_services_text": {
+      "type": "string"
+    },
+    "services": {
+      "collection": "services"
+    },
+    "qoute_text": {
+      "type": "string"
+    },
+    "button_text": {
+      "type": "string"
+    },
+    "button_link": {
+      "type": "string"
+    }
+  }
+}
