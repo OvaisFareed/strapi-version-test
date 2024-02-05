@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_global_payment_solutions_global_payment_tab_contents",
+  "info": {
+    "displayName": "Tab Content",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "mainBanner": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::banner.banner"
+    },
+    "board": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::board.board"
+    },
+    "subBanner": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::banner.banner"
+    },
+    "pageID": {
+      "type": "string"
+    },
+    "checklist": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::checklist.checklist"
+    }
+  }
+}

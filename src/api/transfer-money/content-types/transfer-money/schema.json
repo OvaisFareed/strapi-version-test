@@ -1,0 +1,71 @@
+{
+  "kind": "singleType",
+  "collectionName": "transfer_moneys",
+  "info": {
+    "singularName": "transfer-money",
+    "pluralName": "transfer-moneys",
+    "displayName": "Transfer Money",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "pageUrl": {
+      "type": "string"
+    },
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.dynamic-header"
+    },
+    "money_transfer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.section"
+    },
+    "mtfx_difference": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.section"
+    },
+    "how_it_works": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.how-it-works"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.meta"
+    },
+    "letUsWatch": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::let-us-watch.let-us-watch"
+    },
+    "currencyChart": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::currency-chart.currency-chart"
+    },
+    "newsletter": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::newsletter.newsletter"
+    },
+    "faq": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::faq.faq"
+    }
+  }
+}

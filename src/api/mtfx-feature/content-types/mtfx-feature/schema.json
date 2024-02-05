@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mtfx_features",
+  "info": {
+    "singularName": "mtfx-feature",
+    "pluralName": "mtfx-features",
+    "displayName": "MTFX Feature",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "pageID": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui-components.card"
+    }
+  }
+}

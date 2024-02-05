@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "cu_fx_forecasts",
+  "info": {
+    "singularName": "cu-fx-forecast",
+    "pluralName": "cu-fx-forecasts",
+    "displayName": "CU-FX-Forecast",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "pageUrl": {
+      "type": "string"
+    },
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.dynamic-header"
+    },
+    "sections": {
+      "type": "json"
+    },
+    "metadata": {
+      "type": "json"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_industry_solutions_is_posts",
+  "info": {
+    "displayName": "IS-Post",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui-components.link-button"
+    },
+    "contentLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui-components.link-button"
+    }
+  }
+}

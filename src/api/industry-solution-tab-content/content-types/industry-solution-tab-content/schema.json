@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industry_solution_tab_contents",
+  "info": {
+    "singularName": "industry-solution-tab-content",
+    "pluralName": "industry-solution-tab-contents",
+    "displayName": "Industry Solution Tab Content"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pageID": {
+      "type": "string"
+    },
+    "post": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::industry-solution-post.industry-solution-post"
+    },
+    "mtfxFeatures": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::mtfx-feature.mtfx-feature"
+    }
+  }
+}

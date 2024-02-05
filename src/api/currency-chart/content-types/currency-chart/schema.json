@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "currency_charts",
+  "info": {
+    "singularName": "currency-chart",
+    "pluralName": "currency-charts",
+    "displayName": "Currency Chart"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "pageID": {
+      "type": "string"
+    },
+    "chartData": {
+      "type": "json"
+    }
+  }
+}

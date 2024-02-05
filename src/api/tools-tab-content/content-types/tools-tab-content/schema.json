@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tools_tab_contents",
+  "info": {
+    "singularName": "tools-tab-content",
+    "pluralName": "tools-tab-contents",
+    "displayName": "Tools Tab Content",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pageID": {
+      "type": "string"
+    },
+    "banner": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::banner.banner"
+    },
+    "board": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::board.board"
+    }
+  }
+}

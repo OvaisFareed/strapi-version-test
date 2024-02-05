@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_ui_components_steppers",
+  "info": {
+    "displayName": "Stepper",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "steps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "form.list-item"
+    },
+    "iconUrl": {
+      "type": "string"
+    }
+  }
+}

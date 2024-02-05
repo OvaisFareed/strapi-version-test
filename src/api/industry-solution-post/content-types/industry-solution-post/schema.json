@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industry_solution_posts",
+  "info": {
+    "singularName": "industry-solution-post",
+    "pluralName": "industry-solution-posts",
+    "displayName": "Industry Solution Post"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pageID": {
+      "type": "string"
+    },
+    "post": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.board-item"
+    }
+  }
+}

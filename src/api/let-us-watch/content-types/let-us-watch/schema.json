@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "let_us_watches",
+  "info": {
+    "singularName": "let-us-watch",
+    "pluralName": "let-us-watches",
+    "displayName": "Let us watch",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.link-button"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "pageID": {
+      "type": "string"
+    }
+  }
+}

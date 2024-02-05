@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "bp_blogs",
+  "info": {
+    "singularName": "bp-blog",
+    "pluralName": "bp-blogs",
+    "displayName": "BP-Blog",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "blogUrl": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "isMain": {
+      "type": "boolean"
+    },
+    "metadata": {
+      "type": "json"
+    },
+    "blogs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::blog.blog"
+    },
+    "imageUrl": {
+      "type": "string"
+    }
+  }
+}

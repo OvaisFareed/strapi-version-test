@@ -1,0 +1,71 @@
+{
+  "kind": "singleType",
+  "collectionName": "incoming_payments",
+  "info": {
+    "singularName": "incoming-payment",
+    "pluralName": "incoming-payments",
+    "displayName": " Incoming Payment",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "pageUrl": {
+      "type": "string"
+    },
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.dynamic-header"
+    },
+    "mtfxFeatures": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.section"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.meta"
+    },
+    "guide": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.dynamic-header"
+    },
+    "controlOverPayments": {
+      "type": "component",
+      "repeatable": false,
+      "component": "online-sellers.marketplaces"
+    },
+    "letUsWatch": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::let-us-watch.let-us-watch"
+    },
+    "currencyChart": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::currency-chart.currency-chart"
+    },
+    "newsletter": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::newsletter.newsletter"
+    },
+    "faq": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::faq.faq"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "cu_fx_weeklies",
+  "info": {
+    "singularName": "cu-fx-weekly",
+    "pluralName": "cu-fx-weeklies",
+    "displayName": "CU-FX-Weekly",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "pageUrl": {
+      "type": "string"
+    },
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.dynamic-header"
+    },
+    "sections": {
+      "type": "json"
+    },
+    "metadata": {
+      "type": "json"
+    }
+  }
+}

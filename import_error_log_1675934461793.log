@@ -1,0 +1,241 @@
+[FATAL] Invalid schema changes detected during integrity checks (using the strict strategy). Please find a summary of the changes below:
+- admin::permission:
+  -  exists in destination schema but not in source schema
+- admin::user:
+  -  exists in destination schema but not in source schema
+- admin::role:
+  -  exists in destination schema but not in source schema
+- admin::api-token:
+  -  exists in destination schema but not in source schema
+- admin::api-token-permission:
+  -  exists in destination schema but not in source schema
+- plugin::upload.file:
+  -  exists in destination schema but not in source schema
+- plugin::upload.folder:
+  -  exists in destination schema but not in source schema
+- plugin::i18n.locale:
+  -  exists in destination schema but not in source schema
+- plugin::users-permissions.permission:
+  -  exists in destination schema but not in source schema
+- plugin::users-permissions.role:
+  -  exists in destination schema but not in source schema
+- plugin::users-permissions.user:
+  -  exists in destination schema but not in source schema
+- api::about-us.about-us:
+  -  exists in destination schema but not in source schema
+- api::article.article:
+  -  exists in destination schema but not in source schema
+- api::banner.banner:
+  -  exists in destination schema but not in source schema
+- api::batch-payment.batch-payment:
+  -  exists in destination schema but not in source schema
+- api::blog.blog:
+  -  exists in destination schema but not in source schema
+- api::blog-and-press-room.blog-and-press-room:
+  -  exists in destination schema but not in source schema
+- api::board.board:
+  -  exists in destination schema but not in source schema
+- api::bp-blog.bp-blog:
+  -  exists in destination schema but not in source schema
+- api::bp-pressroom.bp-pressroom:
+  -  exists in destination schema but not in source schema
+- api::business.business:
+  -  exists in destination schema but not in source schema
+- api::career.career:
+  -  exists in destination schema but not in source schema
+- api::checklist.checklist:
+  -  exists in destination schema but not in source schema
+- api::cookie-policy.cookie-policy:
+  -  exists in destination schema but not in source schema
+- api::cu-fx-daily.cu-fx-daily:
+  -  exists in destination schema but not in source schema
+- api::cu-fx-forecast.cu-fx-forecast:
+  -  exists in destination schema but not in source schema
+- api::cu-fx-monthly.cu-fx-monthly:
+  -  exists in destination schema but not in source schema
+- api::cu-fx-weekly.cu-fx-weekly:
+  -  exists in destination schema but not in source schema
+- api::currency-chart.currency-chart:
+  -  exists in destination schema but not in source schema
+- api::currency-list.currency-list:
+  -  exists in destination schema but not in source schema
+- api::currency-update.currency-update:
+  -  exists in destination schema but not in source schema
+- api::data-table.data-table:
+  -  exists in destination schema but not in source schema
+- api::default-currency-code.default-currency-code:
+  -  exists in destination schema but not in source schema
+- api::e-sign-consent-agreement.e-sign-consent-agreement:
+  -  exists in destination schema but not in source schema
+- api::faq.faq:
+  -  exists in destination schema but not in source schema
+- api::forward-contract.forward-contract:
+  -  exists in destination schema but not in source schema
+- api::global-payment-solution.global-payment-solution:
+  -  exists in destination schema but not in source schema
+- api::how-it-work.how-it-work:
+  -  exists in destination schema but not in source schema
+- api::image-section.image-section:
+  -  exists in destination schema but not in source schema
+- api::incoming-payment.incoming-payment:
+  -  exists in destination schema but not in source schema
+- api::industry-solution.industry-solution:
+  -  exists in destination schema but not in source schema
+- api::industry-solution-post.industry-solution-post:
+  -  exists in destination schema but not in source schema
+- api::industry-solution-tab-content.industry-solution-tab-content:
+  -  exists in destination schema but not in source schema
+- api::industry-solutions-business.industry-solutions-business:
+  -  exists in destination schema but not in source schema
+- api::international-payment.international-payment:
+  -  exists in destination schema but not in source schema
+- api::is-education.is-education:
+  -  exists in destination schema but not in source schema
+- api::is-legal.is-legal:
+  -  exists in destination schema but not in source schema
+- api::is-medical.is-medical:
+  -  exists in destination schema but not in source schema
+- api::is-mining.is-mining:
+  -  exists in destination schema but not in source schema
+- api::is-online-seller.is-online-seller:
+  -  exists in destination schema but not in source schema
+- api::is-technology-company.is-technology-company:
+  -  exists in destination schema but not in source schema
+- api::is-travel.is-travel:
+  -  exists in destination schema but not in source schema
+- api::job-location.job-location:
+  -  exists in destination schema but not in source schema
+- api::job-posting.job-posting:
+  -  exists in destination schema but not in source schema
+- api::let-us-watch.let-us-watch:
+  -  exists in destination schema but not in source schema
+- api::live-currency-rate-pair.live-currency-rate-pair:
+  -  exists in destination schema but not in source schema
+- api::live-exchange-rates-default.live-exchange-rates-default:
+  -  exists in destination schema but not in source schema
+- api::main.main:
+  -  exists in destination schema but not in source schema
+- api::market-order.market-order:
+  -  exists in destination schema but not in source schema
+- api::medium-business.medium-business:
+  -  exists in destination schema but not in source schema
+- api::mtfx-feature.mtfx-feature:
+  -  exists in destination schema but not in source schema
+- api::multi-currency-account.multi-currency-account:
+  -  exists in destination schema but not in source schema
+- api::multinational.multinational:
+  -  exists in destination schema but not in source schema
+- api::newsletter.newsletter:
+  -  exists in destination schema but not in source schema
+- api::online-seller.online-seller:
+  -  exists in destination schema but not in source schema
+- api::partner-with-us.partner-with-us:
+  -  exists in destination schema but not in source schema
+- api::privacy-policy.privacy-policy:
+  -  exists in destination schema but not in source schema
+- api::regulatory-information-tab-content.regulatory-information-tab-content:
+  -  exists in destination schema but not in source schema
+- api::risk-management.risk-management:
+  -  exists in destination schema but not in source schema
+- api::safe-harbor-policy.safe-harbor-policy:
+  -  exists in destination schema but not in source schema
+- api::small-business.small-business:
+  -  exists in destination schema but not in source schema
+- api::tab.tab:
+  -  exists in destination schema but not in source schema
+- api::tab-content.tab-content:
+  -  exists in destination schema but not in source schema
+- api::tab-item.tab-item:
+  -  exists in destination schema but not in source schema
+- api::terms-of-use.terms-of-use:
+  -  exists in destination schema but not in source schema
+- api::tools-currency-chart.tools-currency-chart:
+  -  exists in destination schema but not in source schema
+- api::tools-currency-rate-alert.tools-currency-rate-alert:
+  -  exists in destination schema but not in source schema
+- api::tools-daily-exchange-rate-lookup.tools-daily-exchange-rate-lookup:
+  -  exists in destination schema but not in source schema
+- api::tools-economic-calendar.tools-economic-calendar:
+  -  exists in destination schema but not in source schema
+- api::tools-fx-market-update.tools-fx-market-update:
+  -  exists in destination schema but not in source schema
+- api::tools-historical-rate.tools-historical-rate:
+  -  exists in destination schema but not in source schema
+- api::tools-live-exchange-rate.tools-live-exchange-rate:
+  -  exists in destination schema but not in source schema
+- api::tools-rate-calculator.tools-rate-calculator:
+  -  exists in destination schema but not in source schema
+- api::tools-tab-content.tools-tab-content:
+  -  exists in destination schema but not in source schema
+- api::transfer-money.transfer-money:
+  -  exists in destination schema but not in source schema
+- business-page.footer:
+  -  exists in destination schema but not in source schema
+- business-page.header:
+  -  exists in destination schema but not in source schema
+- form.dropdown:
+  -  exists in destination schema but not in source schema
+- form.form:
+  -  exists in destination schema but not in source schema
+- form.label:
+  -  exists in destination schema but not in source schema
+- form.list-item:
+  -  exists in destination schema but not in source schema
+- form.option:
+  -  exists in destination schema but not in source schema
+- global-payment-solutions.global-payment-tab-content:
+  -  exists in destination schema but not in source schema
+- industry-solutions.is-post:
+  -  exists in destination schema but not in source schema
+- online-sellers.marketplaces:
+  -  exists in destination schema but not in source schema
+- shared.dynamic-header:
+  -  exists in destination schema but not in source schema
+- shared.fa-qs:
+  -  exists in destination schema but not in source schema
+- shared.how-it-works:
+  -  exists in destination schema but not in source schema
+- shared.let-us-watch:
+  -  exists in destination schema but not in source schema
+- shared.meta:
+  -  exists in destination schema but not in source schema
+- shared.newsletter:
+  -  exists in destination schema but not in source schema
+- shared.table:
+  -  exists in destination schema but not in source schema
+- ui-components.accordion:
+  -  exists in destination schema but not in source schema
+- ui-components.board-item:
+  -  exists in destination schema but not in source schema
+- ui-components.card:
+  -  exists in destination schema but not in source schema
+- ui-components.chart:
+  -  exists in destination schema but not in source schema
+- ui-components.check-item:
+  -  exists in destination schema but not in source schema
+- ui-components.dynamic-graph:
+  -  exists in destination schema but not in source schema
+- ui-components.form:
+  -  exists in destination schema but not in source schema
+- ui-components.icon:
+  -  exists in destination schema but not in source schema
+- ui-components.image:
+  -  exists in destination schema but not in source schema
+- ui-components.job-posting-accordion:
+  -  exists in destination schema but not in source schema
+- ui-components.link-button:
+  -  exists in destination schema but not in source schema
+- ui-components.link:
+  -  exists in destination schema but not in source schema
+- ui-components.protecting-your-business:
+  -  exists in destination schema but not in source schema
+- ui-components.section:
+  -  exists in destination schema but not in source schema
+- ui-components.stepper:
+  -  exists in destination schema but not in source schema
+- ui-components.tabs:
+  -  exists in destination schema but not in source schema
+- ui-components.testimonial:
+  -  exists in destination schema but not in source schema
+- ui-components.testimonials:
+  -  exists in destination schema but not in source schema

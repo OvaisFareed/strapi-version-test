@@ -1,0 +1,71 @@
+{
+  "kind": "singleType",
+  "collectionName": "mains",
+  "info": {
+    "singularName": "main",
+    "pluralName": "mains",
+    "displayName": "Landing Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "pageUrl": {
+      "type": "string"
+    },
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.dynamic-header"
+    },
+    "why_choose_mtfx": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.section"
+    },
+    "how_it_works": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.section"
+    },
+    "real_time_exchange": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.chart"
+    },
+    "currency_exchange": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.section"
+    },
+    "try_us": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.card"
+    },
+    "testimonials": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.testimonials"
+    },
+    "registration": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.card"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.meta"
+    }
+  }
+}

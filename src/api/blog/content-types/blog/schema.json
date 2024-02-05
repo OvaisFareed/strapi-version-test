@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blogs",
+  "info": {
+    "singularName": "blog",
+    "pluralName": "blogs",
+    "displayName": "Blog",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Blog",
+        "Press Room"
+      ]
+    },
+    "author": {
+      "type": "string"
+    },
+    "isMain": {
+      "type": "boolean"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "metadata": {
+      "type": "json"
+    },
+    "imageUrl": {
+      "type": "string"
+    }
+  }
+}
